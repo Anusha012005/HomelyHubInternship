@@ -15,7 +15,7 @@ export const getPropertyDetails = (id) => async (dispatch) => {
 
     // Call backend API
     const response = await axiosInstance.get(
-      `/v1/rent/listing/${id}`
+      `/api/v1/rent/listing/${id}`
     );
 
     console.log("API Response:", response);
